@@ -50,5 +50,7 @@ public class ArrayFrequencyCounter
         System.out.println("Elements of Array :: "+arr);
         System.out.println("Mapped frequency");
         frequencyCounter(arr);
+
+        sc.close();
     }
 }

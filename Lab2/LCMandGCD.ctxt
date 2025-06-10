@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=LCMandGCD
+comment1.params=x\ y
+comment1.target=int\ calculateLCM(int,\ int)
+comment1.text=\n\ @param\ \ x\ ,\ y\ \ an\ integer\n\ @return\ \ \ \ lcm\ of\ x\ and\ y\n
+comment2.params=x\ y
+comment2.target=int\ calculateGCD(int,\ int)
+comment2.text=\n\ @param\ \ x\ ,\ y\ \ an\ integer\n\ @return\ \ \ \ gcd\ of\ x\ and\ y\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
