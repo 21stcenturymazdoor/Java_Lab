@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PrimeFactorization
+comment1.params=y
+comment1.target=java.util.ArrayList\ primeFactor(int)
+comment1.text=\n\n\ @param\ \ y\ \ number\ whose\ prime\ factors\ are\ to\ be\ determined\n\ @return\ \ \ \ ArrayList\ with\ prime\ factors\ of\ y\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

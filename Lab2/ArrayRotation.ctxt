@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ArrayRotation
+comment1.params=arr\ pos
+comment1.target=void\ rotateArray(int[],\ int)
+comment1.text=\n\ @param\ \ arr[],\ pos\ \ array\ and\ the\ position\ number\n\ upto\ which\ it\ is\ to\ be\ rotated\n\ \n\ @return\ \ \ \ same\ array\ with\ first\ k\ elements\ moved\ to\ the\ end\n
+comment2.params=arr
+comment2.target=void\ displayArray(int[])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

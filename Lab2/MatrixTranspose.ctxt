@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MatrixTranspose
+comment1.params=matrix
+comment1.target=int[][]\ transposeFinder(int[][])
+comment1.text=\n\n\ @param\ \ matrix\ \ \:\ a\ 2D\ array\ representing\ a\ matrix\n\ @return\ \ \ \ the\ transpose\ of\ the\ matrix\n
+comment2.params=matrix
+comment2.target=void\ printMatrix(int[][])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
