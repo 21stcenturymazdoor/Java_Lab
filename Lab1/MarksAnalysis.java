@@ -47,6 +47,7 @@ public class MarksAnalysis
             System.out.print("Enter marks of student "+(i+1)+" ::");
             marks[i] = sc.nextInt();
         }
+        sc.close();
         
         analyzeMarks(marks);
     }

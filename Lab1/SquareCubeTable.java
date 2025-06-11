@@ -28,6 +28,7 @@ public class SquareCubeTable
         
         System.out.println("Enter number of terms ::");
         int n = sc.nextInt();
+        sc.close();
         
         generateSquareCubeTable(n);
     }

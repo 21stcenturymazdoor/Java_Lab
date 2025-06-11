@@ -34,6 +34,7 @@ public class ArithmeticProgression
         
         System.out.print("Enter number of terms (n>=0)::");
         int n = sc.nextInt();
+        sc.close();
         
         generateAP(a,d,n);
     }

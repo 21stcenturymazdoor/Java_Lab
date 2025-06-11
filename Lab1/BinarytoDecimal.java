@@ -38,6 +38,7 @@ public class BinarytoDecimal
         
         System.out.print("Enter binary number ::");
         int binary = sc.nextInt();
+        sc.close();
         
         System.out.println("The decimal obtained ::"+binaryToDecimal(binary));
     }

@@ -38,6 +38,7 @@ public class FibonacciGenerator
         
         System.out.print("Enter the number of terms ::");
         int n = sc.nextInt();
+        sc.close();
         
         generateFibonacci(n);
     }
