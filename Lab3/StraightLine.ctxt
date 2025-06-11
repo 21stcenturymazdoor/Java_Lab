@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StraightLine
+comment0.text=\n\ class\ StraightLine\ representing\ a\ straight\ line\n\ with\ the\ equation\ ax\ +\ by\ +\ c\ \=\ 0.\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (11/06/2025)\n
+comment1.params=a\ b\ c
+comment1.target=StraightLine(double,\ double,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ StraightLine\n
+comment2.params=line1
+comment2.target=boolean\ isParallelWith(StraightLine)
+comment3.params=line1
+comment3.target=boolean\ isPerpendicularWith(StraightLine)
+comment4.params=x1\ y1
+comment4.target=boolean\ isPointOnLine(double,\ double)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
