@@ -30,7 +30,7 @@ public class UseStraightLine
     }
     
     public static void main(String[] args){
-        System.out.println("---Complex Number---");
+        System.out.println("---Straight Line---");
         
         Scanner sc = new Scanner(System.in);
         

@@ -28,7 +28,7 @@ public class UseGreetings
     }
     
     public static void main(String[] args){
-        System.out.println("---Complex Number---");
+        System.out.println("---Greetings---");
         
         Scanner sc = new Scanner(System.in);
         
