@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=UseGreetings
+comment1.params=
+comment1.target=void\ menu()
+comment2.params=sc
+comment2.target=Greetings\ createPerson(java.util.Scanner)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
