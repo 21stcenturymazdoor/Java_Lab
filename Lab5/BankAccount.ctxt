@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\n\ BankAccount\ class\ represents\ an\ individual\ bank\ account.\n\ simulate\ basic\ bank\ operations\ such\ as\n\ deposit,\ withdrawal,\ and\ account\ display.\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (13/06/2025)\n
+comment1.params=accountName\ pinNumber\ depositAmount\ interestRate
+comment1.target=BankAccount(java.lang.String,\ int,\ double,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BankAccount\n
+comment2.params=amount
+comment2.target=void\ deposit(double)
+comment3.params=PIN\ amount
+comment3.target=double\ withdraw(int,\ double)
+comment4.params=PIN
+comment4.target=void\ displayAccount(int)
+comment5.params=
+comment5.target=double\ checkBalance()
+comment6.params=pin
+comment6.target=boolean\ checkPin(int)
+numComments=7
