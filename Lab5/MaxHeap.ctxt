@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MaxHeap
+comment0.text=\n\ a\ Max\ Heap\ data\ structure\ using\ an\ array-based\ implementation\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (13/06/2025)\n
+comment1.params=level
+comment1.target=MaxHeap(int)
+comment1.text=\n\ constructor\ built\ based\ on\n\ level\ of\ the\ heap\n
+comment2.params=
+comment2.target=boolean\ isFull()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=void\ display_heap()
+comment5.params=element
+comment5.target=void\ insert(int)
+comment6.params=
+comment6.target=int\ delete()
+comment7.params=index
+comment7.target=int\ heapify(int)
+comment8.params=array
+comment8.target=void\ build_heap(int[])
+numComments=9
