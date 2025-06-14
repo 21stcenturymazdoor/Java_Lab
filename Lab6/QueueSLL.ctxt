@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=QueueSLL
+comment0.text=\n\ Implementation\ of\ queue\ using\ Singly\ linked\ list\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (14/06/2025)\n
+comment1.params=
+comment1.target=QueueSLL()
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=
+comment3.target=int\ dequeue()
+comment4.params=data
+comment4.target=void\ enqueue(int)
+comment5.params=
+comment5.target=void\ display()
+numComments=6
