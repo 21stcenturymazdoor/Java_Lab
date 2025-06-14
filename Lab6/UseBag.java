@@ -15,7 +15,7 @@ public class UseBag
         System.out.println("2.Search Book with specified keyword");
         System.out.println("3.Search Book with highest frequency of a keyword");
         System.out.println("4.List All Books in Bag");
-        //System.out.println("5.Read a Book"); to be added later
+        System.out.println("5.Read a Book");
         System.out.print("Enter your choice :: ");
     }
     
@@ -26,15 +26,16 @@ public class UseBag
     }
     
     static Book createBook(Scanner sc){
-        System.out.println("Author Name :: ");
+        System.out.print("Author Name :: ");
         String auth = sc.nextLine();
-        System.out.println("Book Name   :: ");
+        System.out.print("Book Name   :: ");
         String title = sc.nextLine();
         
         Book book = new Book(auth, title);
         
-        System.out.println("Enter number of pages :: ");
+        System.out.print("Enter number of pages :: ");
         int totalPage = sc.nextInt();
+        sc.nextLine();
         
         for(int i = 0 ; i < totalPage ; i++){
             book.addPage(createPage(sc, i+1));
@@ -78,6 +79,8 @@ public class UseBag
                     
                     if (foundBooks.length > 0) {
                         System.out.println("Books containing the keyword '" + keyword + "':");
+                        System.out.println("Author : Book");
+                        System.out.println("----------------");
                         for (Book b : foundBooks) {
                             System.out.println(b.getAuthor() + " : " + b.getBookName());
                         }
@@ -93,6 +96,7 @@ public class UseBag
                     
                     if (maxBook != null) {
                         System.out.println("Book with highest frequency of '" + keyword + "':");
+                        System.out.println("Author : Book");
                         System.out.println(maxBook.getAuthor() + " : " + maxBook.getBookName());
                     } else {
                         System.out.println("No books found with the keyword '" + keyword + "'.");
@@ -101,7 +105,16 @@ public class UseBag
                 case 4 -> {
                     System.out.println(bag.showAllBooks());
                 }
-                // case 5 -> { // To be added later
+                case 5 -> {
+                    sc.nextLine();
+                    System.out.println(bag.showAllBooks());
+                    System.out.print("Enter the name of the book to read: ");
+                    String bookName = sc.nextLine();
+                    
+                    if(!bag.readBook(bookName)){
+                        System.out.println("Book not found");
+                    }
+                }
                 default -> System.out.println("Invalid choice. Try again.");
             }
         }

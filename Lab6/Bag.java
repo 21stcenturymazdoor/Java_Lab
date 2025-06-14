@@ -67,7 +67,7 @@ public class Bag
         if(isEmpty()){
             return " No Books in the Bag";
         }
-        String str = "Author : Book \n";
+        String str = "Author : Book \n---------------\n";
         
         for(int i = 0; i < size; i++){
             Book book = books[i];
@@ -77,8 +77,15 @@ public class Bag
         return str;
     }
     
-    /*
-    void ReadBook(String title){
-        
-    }*/
+
+    boolean readBook(String title){
+        for(int i = 0; i < size; i++){
+            Book book = books[i];
+            if(title.equalsIgnoreCase(book.getBookName())){
+                book.readBook();
+                return true;
+            }
+        }
+        return false;
+    }
 }

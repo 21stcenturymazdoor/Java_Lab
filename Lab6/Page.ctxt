@@ -6,5 +6,5 @@ comment1.target=Page(java.lang.String)
 comment2.params=
 comment2.target=java.lang.String\ getText()
 comment3.params=keyword
-comment3.target=int\ countKeywordOcurrences(java.lang.String)
+comment3.target=int\ countKeywordFrequency(java.lang.String)
 numComments=4
