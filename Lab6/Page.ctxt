@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Page
+comment0.text=\n\ The\ Page\ class\ represents\ a\ page\ in\ a\ book.\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (14/06/2025)\n
+comment1.params=text
+comment1.target=Page(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getText()
+comment3.params=keyword
+comment3.target=int\ countKeywordOcurrences(java.lang.String)
+numComments=4
