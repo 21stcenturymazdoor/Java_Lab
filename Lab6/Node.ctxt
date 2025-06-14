@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ The\ Node\ class\ represents\ a\ node\ in\ the\ SLL.\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (14/06/2025)\n
+comment1.params=d
+comment1.target=Node(int)
+comment2.params=d\ n
+comment2.target=Node(int,\ Node)
+comment3.params=n
+comment3.target=void\ setNext(Node)
+numComments=4
