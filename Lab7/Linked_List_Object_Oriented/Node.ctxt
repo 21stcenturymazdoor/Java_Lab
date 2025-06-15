@@ -1,10 +1,18 @@
 #BlueJ class context
 comment0.target=Node
-comment0.text=\n\ The\ Node\ class\ represents\ a\ node\ in\ the\ SLL.\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (15/06/2025)\n
+comment0.text=\n\ The\ Node\ class\ represents\ a\ node\ in\ the\ SLL.\n\n\ To\ showcase\ inter-object\ communication\ between\ Node\ and\ SLL\n\ Node\ object\ has\ the\ methods\ instead\ of\ SLL\n\ Node\ recursively\ calls\ the\ method\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (15/06/2025)\n
 comment1.params=d
 comment1.target=Node(int)
 comment2.params=d\ n
-comment2.target=Node(int,\ Linked_List.Node)
+comment2.target=Node(int,\ Node)
 comment3.params=n
-comment3.target=void\ setNext(Linked_List.Node)
-numComments=4
+comment3.target=void\ setNext(Node)
+comment4.params=d
+comment4.target=void\ insertAtEnd(int)
+comment5.params=value
+comment5.target=Node\ deleteByValue(int)
+comment6.params=
+comment6.target=int\ getSum()
+comment7.params=
+comment7.target=void\ display()
+numComments=8

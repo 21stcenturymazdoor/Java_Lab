@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=SLL
-comment0.text=\n\ Implementation\ of\ Singly\ linked\ list\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (14/06/2025)\n
+comment0.text=\n\ Implementation\ of\ Singly\ linked\ list\n\n\ To\ showcase\ inter-object\ communication\ between\ Node\ and\ SLL\n\ Node\ object\ has\ the\ methods\ instead\ of\ SLL\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (14/06/2025)\n
 comment1.params=
 comment1.target=SLL()
 comment2.params=d
@@ -9,7 +9,7 @@ comment3.params=
 comment3.target=int\ deleteAtBegin()
 comment4.params=d
 comment4.target=void\ insertAtEnd(int)
-comment5.params=d
+comment5.params=value
 comment5.target=void\ deleteByValue(int)
 comment6.params=
 comment6.target=int\ getSum()
