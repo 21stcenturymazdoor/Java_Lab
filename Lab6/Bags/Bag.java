@@ -1,9 +1,11 @@
+package Bags;
+
 /**
  * The Bag class represents a bag that can contain
  * maximum 10 books
  *
  * @author (21stcenturymazdoor)
- * @version (14/06/2025)
+ * @version (15/06/2025)
  */
 import java.util.ArrayList;
 
@@ -13,7 +15,7 @@ public class Bag
     private Book[] books;
     private int size;
     
-    Bag(){
+    public Bag(){
         this.size = 0;
         this.books = new Book[10];
     }
@@ -26,7 +28,7 @@ public class Bag
         return size == 0;
     }
     
-    void insertBook(Book book){
+    public void insertBook(Book book){
         if(isFull()){
             System.out.println("Bag Full. Cannot insert Book");
             return;
@@ -35,7 +37,7 @@ public class Bag
         books[size++] = book;
     }
     
-    Book[] searchBooksByKeyword(String keyword){
+    public Book[] searchBooksByKeyword(String keyword){
         ArrayList<Book> containsKeyword = new ArrayList<>();
         
         for(int i = 0; i < size; i++){
@@ -48,7 +50,7 @@ public class Bag
         return containsKeyword.toArray(new Book[containsKeyword.size()]);
     }
     
-    Book searchBookWithMostFrequency(String keyword){
+    public Book searchBookWithMostFrequency(String keyword){
         Book maxedBook = null;
         int maxFrequency = 0;
         
@@ -63,7 +65,7 @@ public class Bag
         return maxedBook;
     }
     
-    String showAllBooks(){
+    public String showAllBooks(){
         if(isEmpty()){
             return " No Books in the Bag";
         }
@@ -78,7 +80,7 @@ public class Bag
     }
     
 
-    boolean readBook(String title){
+    public boolean readBook(String title){
         for(int i = 0; i < size; i++){
             Book book = books[i];
             if(title.equalsIgnoreCase(book.getBookName())){

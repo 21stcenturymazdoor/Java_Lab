@@ -1,24 +1,29 @@
+package Queue;
 /**
  * Implementation of queue using Singly linked list
  *
  * @author (21stcenturymazdoor)
  * @version (14/06/2025)
  */
+
+
+import Linked_List.Node;
+
 public class QueueSLL
 {
     // instance variables
     private Node front;
     private Node rear;
     
-    QueueSLL(){
+    public QueueSLL(){
         front = rear = null;
     }
     
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return front == null;
     }
     
-    int dequeue(){
+    public int dequeue(){
         if (front == null) {
             return -999;
         }
@@ -33,7 +38,7 @@ public class QueueSLL
         return tempData;
     }
     
-    void enqueue(int data){
+    public void enqueue(int data){
         Node newNode = new Node(data, null);
         if (rear == null) { // If queue is empty
             front = rear = newNode;
@@ -44,7 +49,7 @@ public class QueueSLL
     }
     
     
-    void display(){
+    public void display(){
         System.out.print("Front --> ");
         Node temp = front;
         while (temp != null) {

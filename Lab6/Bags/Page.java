@@ -2,14 +2,16 @@
  * The Page class represents a page in a book.
  *
  * @author (21stcenturymazdoor)
- * @version (14/06/2025)
+ * @version (15/06/2025)
  */
+package Bags;
+
 public class Page
 {
     // instance variables
     private String text;
     
-    Page(String text){
+    public Page(String text){
         this.text = text;
     }
     

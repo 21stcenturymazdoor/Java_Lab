@@ -1,3 +1,4 @@
+package Linked_List;
 /**
  * Implementation of Singly linked list
  *
@@ -9,16 +10,16 @@ public class SLL
     // instance variables
     private Node head;
     
-    SLL(){
+    public SLL(){
         head = null;
     }
     
-    void insertAtBegin(int d){
+    public void insertAtBegin(int d){
         Node n = new Node(d,head);
         head = n;
     }
     
-    int deleteAtBegin(){
+    public int deleteAtBegin(){
         if (head == null) {
             return -999;
         }
@@ -31,7 +32,7 @@ public class SLL
         return tempData;
     }
     
-    void insertAtEnd(int d){
+    public void insertAtEnd(int d){
         Node newNode = new Node(d, null);
         if (head == null) {
             head = newNode;
@@ -44,7 +45,7 @@ public class SLL
         }
     }
     
-    void deleteByValue(int d){
+    public void deleteByValue(int d){
         Node curr = head;
         Node prev = null;
 
@@ -68,7 +69,7 @@ public class SLL
         }
     }
     
-    int getSum(){
+    public int getSum(){
         Node temp = head;
         int sum = 0;
         while(temp != null){
@@ -79,7 +80,7 @@ public class SLL
         return sum;
     }
     
-    void display(){
+    public void display(){
         System.out.print("Head --> ");
         Node temp = head;
         while (temp != null) {

@@ -2,9 +2,11 @@
  * Use class for Queue using Singly Linked List
  *
  * @author (21stcenturymazdoor)
- * @version (14/06/2025)
+ * @version (15/06/2025)
  */
 import java.util.Scanner;
+
+import Queue.QueueSLL;
 
 public class UseQueueSLL
 {

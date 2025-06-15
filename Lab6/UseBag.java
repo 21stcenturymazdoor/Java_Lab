@@ -6,7 +6,11 @@
  */
 import java.util.Scanner;
 
-public class UseBag
+import Bags.Book;
+import Bags.Page;
+import Bags.Bag;
+
+class UseBag
 {
     public static void menu(){
         System.out.println("---MENU---");

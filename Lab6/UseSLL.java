@@ -6,6 +6,8 @@
  */
 import java.util.Scanner;
 
+import Linked_List.SLL;
+
 public class UseSLL
 {
     public static void menu(){
