@@ -23,7 +23,7 @@ class UseBag
         System.out.println("---MENU---");
         System.out.println("0.Exit");
         System.out.println("1.Create Book");
-        System.out.println("2.Add Book to Bag");
+        System.out.println("2.Add Book to Bag (Moves from Shelf to Bag)");
         System.out.println("3.Remove Book from Shelf (Book Deleted)");
         System.out.println("4.List All Books on Shelf");
         System.out.println("5.Move to Bag Menu");
@@ -62,24 +62,12 @@ class UseBag
         
         return book;
     }
-    
-    static void printShelfBooks(ArrayList<Book> shelf) {
-        if (shelf.isEmpty()) {
-            System.out.println("No Books on Shelf");
-            return;
-        }
-        System.out.println("--------------\nAUTHOR : BOOK\n--------------");
-        for (int i = 0; i < shelf.size(); i++) {
-            Book book = shelf.get(i);
-            System.out.println((i + 1) + ". " + book.getAuthor() + " : " + book.getBookName());
-        }
-    }
 
     public static void main(String[] args){
         System.out.println("---Bag Simulation---");
         
         Scanner sc = new Scanner(System.in);
-        ArrayList<Book> shelf = new ArrayList<>();
+        Shelf shelf = new Shelf();
         System.out.println("Shelf created to hold books");
         
         System.out.println("Creating a Bag");
@@ -102,31 +90,31 @@ class UseBag
                 case 1 -> {
                     Book book = createBook(sc);
                     System.out.println("Book Created Successfully");
-                    shelf.add(book);
+                    shelf.addBook(book);
                 }
                 case 2 -> {        
-                    printShelfBooks(shelf);
+                    shelf.listAllBooks();
                     System.out.print("Select a book to add to the bag :: ");
-                    int bookChoice = sc.nextInt() - 1;
-                    if (bookChoice >= 0 && bookChoice < shelf.size()) {
-                        bag.insertBook(shelf.remove(bookChoice));
+                    int bookChoice = sc.nextInt();
+                    if (bookChoice >= 1 && bookChoice < shelf.getSize()) {
+                        bag.insertBook(shelf.removeBook(bookChoice-1));
                         System.out.println("Book Moved from Shelf to Bag");
                     } else {
                         System.out.println("Invalid choice.");
                     }
                 }
                 case 3 -> {
-                    printShelfBooks(shelf);
-                    System.out.print("Select a book to remove from shelf :: ");
-                    int bookChoice = sc.nextInt() - 1;
-                    if (bookChoice >= 0 && bookChoice < shelf.size()) {
-                        shelf.remove(bookChoice);
-                        System.out.println("Book Removed from Shelf");
+                    shelf.listAllBooks();
+                    System.out.print("Select a book to add to the bag :: ");
+                    int bookChoice = sc.nextInt();
+                    if (bookChoice >= 1 && bookChoice < shelf.getSize()) {
+                        shelf.removeBook(bookChoice-1);
+                        System.out.println("Book Moved from Shelf to Bag");
                     } else {
                         System.out.println("Invalid choice.");
                     }
                 }
-                case 4 -> printShelfBooks(shelf);
+                case 4 -> shelf.listAllBooks();
                 case 5 -> {
                     int bagChoice;
                     do {
@@ -173,6 +161,38 @@ class UseBag
                 }
                 default -> System.out.println("Invalid choice. Try again.");
             }
+        }
+    }
+}
+
+class Shelf {
+    ArrayList<Book> books;
+    
+    Shelf(){
+        books = new ArrayList<>();
+    }
+    
+    void addBook(Book book){
+        books.add(book);
+    }
+    
+    Book removeBook(int index){
+        return books.remove(index);
+    }
+    
+    int getSize(){
+        return books.size();
+    }
+    
+    void listAllBooks() {
+        if (books.isEmpty()) {
+            System.out.println("No Books on Shelf");
+            return;
+        }
+        System.out.println("--------------\nAUTHOR : BOOK\n--------------");
+        for (int i = 0; i < books.size(); i++) {
+            Book book = books.get(i);
+            System.out.println((i + 1) + ". " + book.getAuthor() + " : " + book.getBookName());
         }
     }
 }
