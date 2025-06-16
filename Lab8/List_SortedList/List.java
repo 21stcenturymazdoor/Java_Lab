@@ -1,10 +1,10 @@
 package List_SortedList;
 
 /**
- * List class stores elements in  an array
+ * List class stores values in  an array
  *
  * @author (21stcenturymazdoor)
- * @version (XX/0X/2025)
+ * @version (16/06/2025)
  */
 public class List
 {
@@ -17,29 +17,29 @@ public class List
      */
     public List()
     {
-        arr = new int[50];//list to contain max 50 element
+        arr = new int[50];//list to contain max 50 value
         size = 0;
     }
     
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return (size == 0);
     }
     
-    boolean isFull(){
+    public boolean isFull(){
         return (size == arr.length);
     }
 
-    void insert(int value){
+    public void insert(int value){
         if(isFull()){
             System.out.println("List is Full");
             return;
         }
         
         arr[size++] = value;
-        System.out.println("Element Inserted");
+        System.out.println("Value Inserted");
     }
     
-    void delete(int value){
+    public void delete(int value){
         if(isEmpty()){
             System.out.println("List is Empty !!!");
             return;
@@ -65,7 +65,7 @@ public class List
         }
     }
     
-    int find(int value){
+    public int find(int value){
         if(isEmpty()){
             System.out.println("The List is Empty !!!");
             return -1;

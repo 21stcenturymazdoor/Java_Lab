@@ -1,10 +1,10 @@
 package List_SortedList;
 /**
- * SorteList inherits List
- * Assumption : all element are distinct
+ * SortedList inherits List
+ * Assumption : all values are distinct
  *
  * @author (21stcenturymazdoor)
- * @version (XX/0X/2025)
+ * @version (16/06/2025)
  */
 public class SortedList extends List
 {
@@ -16,22 +16,22 @@ public class SortedList extends List
         super();
     }
     
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return (size == 0);
     }
     
-    boolean isFull(){
+    public boolean isFull(){
         return (size == arr.length);
     }
 
-    int binarySearch(int element){
+    int binarySearch(int value){
         int first = 0;
         int last = size - 1;
         while (first <= last) {
             int mid = (first + last) / 2;
-            if (element == arr[mid]) {
+            if (value == arr[mid]) {
                 return mid;
-            } else if (element < arr[mid]) {
+            } else if (value < arr[mid]) {
                 last = mid - 1;
             } else {
                 first = mid + 1;
@@ -41,41 +41,44 @@ public class SortedList extends List
     }
 
     @Override
+    public
     int find(int value){
         return binarySearch(value);
     }
 
     @Override
-    void insert(int element){
+    public
+    void insert(int value){
         if(isFull()){
             System.out.println("List is Full");
             return;
         }
-        int index = binarySearch(element);
+        int index = binarySearch(value);
         int insertPos = (index >= 0) ? index : -index;
         for(int j = size; j > insertPos; j--){
             arr[j] = arr[j-1];
         }
-        arr[insertPos] = element;
+        arr[insertPos] = value;
         size++;
-        System.out.println("Element Inserted");
+        System.out.println("Value Inserted");
     }
     
     @Override
-    void delete(int element){
+    public
+    void delete(int value){
         if(isEmpty()){
             System.out.println("List is Empty !!!");
             return;
         }
-        int index = binarySearch(element);
+        int index = binarySearch(value);
         if(index < 0){
-            System.out.println("Element not in List !!!");
+            System.out.println("Value not in List !!!");
         }else{
             size--;
             for(int i = index ; i < size; i++){
                 arr[i] = arr[i+1];
             }
-            System.out.println("Element deleted from List");
+            System.out.println("Value deleted from List");
         }
     }
 }
