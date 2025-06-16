@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=RightAngleTriangle
+comment0.text=\n\ Triangle\ class\n\ represented\ using\ 2D\ array\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (16/06/2025)\n
+comment1.params=a\ b\ c
+comment1.target=RightAngleTriangle(int[],\ int[],\ int[])
+comment2.params=
+comment2.target=double\ findPerimeter()
+comment3.params=
+comment3.target=double\ findArea()
+comment4.params=
+comment4.target=java.lang.String\ getPoints()
+comment5.params=
+comment5.target=double\ getHypotenuse()
+comment6.params=
+comment6.target=java.lang.String\ getSides()
+comment7.params=
+comment7.target=boolean\ isValid()
+numComments=8
