@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SortedList
+comment0.text=\n\ SorteList\ inherits\ List\n\ Assumption\ \:\ all\ element\ are\ distinct\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (XX/0X/2025)\n
+comment1.params=
+comment1.target=SortedList()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SortedList\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=
+comment3.target=boolean\ isFull()
+comment4.params=element
+comment4.target=void\ insert(int)
+comment5.params=element
+comment5.target=void\ delete(int)
+comment6.params=element
+comment6.target=int\ binarySearch(int)
+comment7.params=value
+comment7.target=int\ find(int)
+numComments=8
