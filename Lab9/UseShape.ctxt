@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UseShape
+comment1.params=
+comment1.target=void\ menu()
+comment2.params=sc
+comment2.target=Shapes.Circle\ createCircle(java.util.Scanner)
+comment3.params=sc
+comment3.target=Shapes.Parallelogram\ createParallelogram(java.util.Scanner)
+comment4.params=sc
+comment4.target=Shapes.Triangle\ createTriangle(java.util.Scanner)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

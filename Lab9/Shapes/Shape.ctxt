@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\n\ Abstract\ shape\ class\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (17/06/2025)\n
+comment1.params=
+comment1.target=double\ getArea()
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment3.params=x1\ y1\ x2\ y2
+comment3.target=double\ getDistance(int,\ int,\ int,\ int)
+comment4.params=sh
+comment4.target=void\ getAreaPerimeter(Shape)
+numComments=5

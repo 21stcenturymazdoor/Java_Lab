@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\n\ Circle\ class\n\ implements\ abstract\ Shape\ class\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (17/06/2025)\n
+comment1.params=radius\ centerX\ centerY
+comment1.target=Circle(double,\ int,\ int)
+comment2.params=
+comment2.target=double\ getArea()
+comment3.params=
+comment3.target=double\ getPerimeter()
+comment4.params=x\ y
+comment4.target=boolean\ isPointInside(int,\ int)
+numComments=5

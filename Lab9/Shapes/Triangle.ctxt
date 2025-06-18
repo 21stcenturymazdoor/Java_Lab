@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Triangle
+comment0.text=\n\ Triangle\ class\n\ represented\ using\ 2D\ array\n\ implements\ abstract\ Shape\ class\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (17/06/2025)\n
+comment1.params=point1\ point2\ point3
+comment1.target=Triangle(int[],\ int[],\ int[])
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment3.params=
+comment3.target=double\ getArea()
+comment4.params=
+comment4.target=boolean\ isRightAngleTriangle()
+comment5.params=
+comment5.target=boolean\ isIsoscelesTriangle()
+comment6.params=
+comment6.target=boolean\ isEquilateralTriangle()
+numComments=7

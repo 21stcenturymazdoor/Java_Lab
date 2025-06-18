@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Parallelogram
+comment0.text=\n\ Parallelogram\ class\n\ implements\ abstract\ Shape\ class\n\n\ assumptions\ \:\ side1\ ,\ side2\ are\ positive\ ,\ acuteAngleDegree\ in\ [0,90]\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (17/06/2025)\n
+comment1.params=side1\ side2\ acuteAngleDegree
+comment1.target=Parallelogram(double,\ double,\ int)
+comment2.params=
+comment2.target=double\ getPerimeter()
+comment3.params=
+comment3.target=double\ getArea()
+comment4.params=
+comment4.target=boolean\ isRectangle()
+comment5.params=
+comment5.target=boolean\ isSquare()
+numComments=6
