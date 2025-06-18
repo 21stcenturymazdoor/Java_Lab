@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Parallelogram
+comment0.text=\n\ Parallelogram\ class\n\ represented\ as\ an\ aggregation\ of\ 2\ triangles\n\ (Tri\ \:\ ABC\ ,\ Tri\ \:\ ADC\ ,\ ||gm\ \:\ ABCD)\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (XX/0X/2025)\n
+comment1.params=pointA\ pointB\ pointC\ pointD
+comment1.target=Parallelogram(int[],\ int[],\ int[],\ int[])
+comment2.params=
+comment2.target=double\ findPerimeter()
+comment3.params=
+comment3.target=double\ findArea()
+comment4.params=
+comment4.target=void\ displayPoints()
+numComments=5

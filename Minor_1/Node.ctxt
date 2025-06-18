@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ Node\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (XX/0X/2025)\n
+comment1.params=data
+comment1.target=Node(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Node\n
+comment2.params=currentMax
+comment2.target=int\ getMax(int)
+comment3.params=prevNode
+comment3.target=Node\ getReverse(Node)
+comment4.params=currLength
+comment4.target=int\ getLength(int)
+comment5.params=pos\ currPos\ newData
+comment5.target=void\ insertAfter(int,\ int,\ int)
+comment6.params=pos\ currPos
+comment6.target=Node\ deleteNode(int,\ int)
+comment7.params=
+comment7.target=void\ display()
+numComments=8
