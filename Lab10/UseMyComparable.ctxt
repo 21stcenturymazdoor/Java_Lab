@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=UseMyComparable
+comment1.params=list\ comparator
+comment1.target=void\ sortArray(int[],\ MyComparable)
+comment2.params=
+comment2.target=void\ menu()
+comment3.params=num
+comment3.target=void\ displayArray(int[])
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

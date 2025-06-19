@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ascending
+comment0.text=\n\ Ascending\ class\n\ implements\ the\ MyComparable\ interface\n\ order\ integers\ in\ ascending\ order\n\ \n\ @author\ (21stcenturymazdoor)\n\ @version\ (20/06/2025)\n
+comment1.params=
+comment1.target=Ascending()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Ascending\n
+comment2.params=first\ second
+comment2.target=int\ compareTo(int,\ int)
+numComments=3

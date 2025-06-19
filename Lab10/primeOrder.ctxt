@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=primeOrder
+comment0.text=\n\ primeOrder\ class\n\ implements\ the\ MyComparable\ interface\n\ order\ integers\ in\ ascending\ order\n\ \n\ @author\ (21stcenturymazdoor)\n\ @version\ (20/06/2025)\n
+comment1.params=
+comment1.target=primeOrder()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ primeOrder\n
+comment2.params=num
+comment2.target=int\ primeFactor(int)
+comment3.params=first\ second
+comment3.target=int\ compareTo(int,\ int)
+numComments=4
