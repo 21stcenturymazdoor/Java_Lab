@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UseArrayStack
+comment1.params=
+comment1.target=void\ menu()
+comment2.params=sc\ name
+comment2.target=Stack\ inputStack(java.util.Scanner,\ java.lang.String)
+comment3.params=sc\ name
+comment3.target=ArrayLinearList\ inputArrayLinearList(java.util.Scanner,\ java.lang.String)
+comment4.params=stack1\ stack2\ list1\ list2
+comment4.target=void\ printAll(Stack,\ Stack,\ ArrayLinearList,\ ArrayLinearList)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

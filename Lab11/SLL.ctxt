@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=SLL
+comment0.text=\n\ Implementation\ of\ Singly\ linked\ list\n\ Modified\ Lab6\ program\n\ Added\ toString()\ ,\ equals()\ ,\ copy\ constructor\n\n\ @author\ (21stcenturymazdoor)\n\ @version\ (20/06/2025)\n
+comment1.params=
+comment1.target=SLL()
+comment2.params=sll
+comment2.target=SLL(SLL)
+comment3.params=d
+comment3.target=void\ insertAtEnd(int)
+comment4.params=d
+comment4.target=void\ deleteByValue(int)
+comment5.params=
+comment5.target=int\ getSum()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=other
+comment7.target=boolean\ equals(SLL)
+numComments=8
