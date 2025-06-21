@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=name\ id\ marks\ regno
+comment1.target=Student(java.lang.String,\ int,\ int[],\ java.lang.String)
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=mark
+comment3.target=java.lang.String\ getGrade(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=int\ hashCode()
+numComments=6
